@@ -15,7 +15,7 @@ const logger = (moduleFilename) => {
     ),
     transports: [
       new transports.Console(),
-      new transports.File({ filename: "combined.logs" }),
+      new transports.File({ filename: "combined.log" }),
     ],
   });
 };
